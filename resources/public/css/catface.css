@@ -1,0 +1,70 @@
+#wrapper {
+  padding: 1em;
+}
+
+h1 {
+  font-size: 175%;
+  font-weight: bold
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#slogan {
+  font-style: italic;
+  font-size: 125%;
+  color: #090939;
+  margin-bottom: 20px
+}
+
+#catProfile {
+  border: solid black 1px;
+  padding: 30px;
+}
+
+#catProfile #catPic {
+  float: right;
+  border: solid black 1px;
+  padding: 5px;
+}
+#catProfile h2 {
+  font-size: 140%;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+#catProfile h2 a {
+  text-decoration: none;
+}
+
+#catProfile h3 {
+  font-style: italic;
+}
+
+#catProfile p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#catProfile p strong {
+  margin-right: 10px;
+}
+
+#catProfile ul {
+  list-style: none; 
+}
+
+#catProfile ul li {
+  margin-right: 8px;
+  padding: 7px;
+  border: solid gray 1px;
+  float: left;
+}
+
+#colleagues {
+  clear: both;
+}
+
+#padd {
+  clear: both;
+}
