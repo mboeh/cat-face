@@ -11,14 +11,26 @@
    "Pissing on your nice new couch"
    "Trying to sleep on your face"
    "Keyboard"
-   "Under your feet on the stairs"])
+   "Under your feet on the stairs"
+   "In a superposition"
+   "Stupidly fascinated by laser"
+   "Pretending to kill a bird who would, in real life, overpower him"
+   "Spraying foul cat urine on your clothes"
+   "Failing to recognize self in mirror"
+   "Unemployed, duh"
+   "Meowing every two seconds, but why?"
+   "Picking a fight with running water"])
 
 (def cat-colors
   ["black", "white", "tuxedo", "calico", "tortoiseshell", "red tabby", "brown tabby", "siamese"])
 
 (def cat-destiny
-  (conj (repeat 25 "just a cat")
-        ["this cat is going places"]))
+  (lazy-cat 
+    (repeat 25 "Just a cat")
+    ["This cat is going places"
+     "A boy"
+     "Little jerk"
+     "The fluffiest wuffiest kitten in the whole world"]))
 
 (defn rand-gen [seed]
   (Random. seed))
